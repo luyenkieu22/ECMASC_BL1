@@ -56,3 +56,5 @@ app.innerHTML = `<div class="max-w-6xl mx-auto grid grid-cols-3 gap-8"> ${conten
 // Array methods: map, filter, reduce, find
 // destructoring, spread operator, rest parameter
 // nullish, optional chaining
+
+
