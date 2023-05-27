@@ -8,7 +8,7 @@ const Header = () => {
                     <ul class="flex items-center space-x-4 lg:text-xl sm:text-lg justify-center gap-8 placeholder-opacity-95 lg:visible md:visible invisible">
                         <li class="hover:text-red-400"><a href="/">Home</a></li>
                         <li class="hover:text-red-400"><a href="/about">About Me</a></li>
-                        <li class="hover:text-red-400"><a href="/product">Blog</a></li>
+                        <li class="hover:text-red-400"><a href="/blog">Blog</a></li>
                         <li class="hover:text-red-400"><a href="/contact">Contact</a></li>
                     </ul>
                     <div class="flex justify-center m-auto items-center hover:bg-gray-800 hover:border-none hover:p-1 hover:shadow-gray-900 hover:shadow-lg hover:delay-150 ml-6 border rounded-[3px] p-1 cursor-pointer">

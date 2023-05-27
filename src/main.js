@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import ProductPage from "./pages/ProductPage";
 import ProductDetail from "./pages/ProductDetail";
 import Contact from "./pages/Contact";
+import BlogPage from "./pages/BlogPage";
 
 
 const app = document.querySelector('#app');
@@ -14,6 +15,7 @@ router.on("/", () => render (HomePage, app));
 router.on("/about", () => render (AboutPage, app));
 router.on("/product", () => render (ProductPage, app));
 router.on("/contact", () => render (Contact, app));
+router.on("/blog", () => render (BlogPage, app));
 router.on("/product/:id", ({data}) => render (() => ProductDetail(data), app));
 
 router.notFound(() => render(NotFound, app));

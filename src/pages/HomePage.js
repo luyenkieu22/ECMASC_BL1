@@ -29,7 +29,7 @@ const HomePage = () => {
                         
                         ${myblogs.map((myblog) => {
                             return `
-                                <div class="border p-3 my-6 rounded-md h-[250px] grid items-center">
+                                <div class="border p-3 my-6 rounded-md h-[250px] grid items-center hover:cursor-pointer hover:bg-gray-700 hover:bg-opacity-30 hover:border-none">
                                     <div class="font-bold text-xl uppercase italic tracking-[3px]">${myblog.name}</div>
                                     <div>${myblog.content}</div>
                                 </div>
